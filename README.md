@@ -11,5 +11,7 @@ wget "https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome
 curl "https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh" -o linpeas.sh
 
 ./linpeas.sh -a #all checks - deeper system enumeration, but it takes longer to complete.
+
 ./linpeas.sh -s #superfast & stealth - This will bypass some time consuming checks. In stealth mode Nothing will be written to the disk.
+
 ./linpeas.sh -P #Password - Pass a password that will be used with sudo -l and bruteforcing other users
